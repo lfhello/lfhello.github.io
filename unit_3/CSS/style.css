@@ -1,0 +1,66 @@
+
+
+body{
+	background: url(lauren-kay-632247-unsplash.jpg);
+}
+
+
+h1 {
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: outline;
+	font-size: 54px;
+	text-align: center;
+}
+
+h2{
+	color: #767676;
+	font-family: Helvetica, sans-serif;
+	font-weight: thin;
+	font-size: 36px;
+	text-align: left;
+}
+
+h3{
+	color: #767676;
+	font-family: Helvetica, sans-serif;
+	font-weight: thin;
+	font-size: 22px;
+	text-align: left;
+}
+
+ul{
+	color: #767676;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;	
+}
+
+#slogan{
+	color: #FFF;
+	font-family: Georgia, serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+#main-CTA{
+	color:#FFF;
+	font-family:Helvectica, sans-serif;
+	font-style: bold;
+
+}
+
+
+.content{
+	color: #767676;
+	font-family: Georgia, serif;
+	font-size: 18px;
+}
+
+.quote{
+	color:#21436F;
+	font-family:Helvectica, sans-serif;
+	font-style: thin;	
+}
