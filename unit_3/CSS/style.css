@@ -18,23 +18,33 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
+
+    body{
+	background-image: url(../images/lauren-kay-632247-unsplash.jpg);
+}
 }
 
 
 
 */
 
-body{
-	background: url(lauren-kay-632247-unsplash.jpg);
-}
+
 
 h1{
-	color: #FFF;
+	color: #767676;
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: outline;
 	font-size: 54px;
 	text-align: center;
+}
+
+#slogan{
+	color: #767676;
+	font-family: Georgia, serif;
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
 }
 
 h2{
@@ -43,6 +53,12 @@ h2{
 	font-weight: thin;
 	font-size: 36px;
 	text-align: left;
+}
+
+.content{
+	color: #767676;
+	font-family: Georgia, serif;
+	font-size: 18px;
 }
 
 h3{
@@ -60,22 +76,6 @@ ul{
 	font-size: 18px;
 	text-align: center;
     list-style-type: none;	
-}
-
-#slogan{
-	color: #FFF;
-	font-family: Georgia, serif;
-	font-size: 24px;
-	text-align: center;
-	font-style: italic;
-}
-
-
-
-.content{
-	color: #767676;
-	font-family: Georgia, serif;
-	font-size: 18px;
 }
 
 
