@@ -1,4 +1,9 @@
 
+body{
+	background: blue;
+}
+
+
 /*body{
 	background: url(lauren-kay-632247-unsplash.jpg);
 }
@@ -9,10 +14,6 @@ padding
 border
 width
 text-align
-
-
-*/
-
 
 
 h1{
@@ -71,3 +72,7 @@ ul{
 	font-family:Helvectica, sans-serif;
 	font-style: thin;	
 }
+
+*/
+
+
