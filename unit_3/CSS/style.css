@@ -1,4 +1,15 @@
 
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
 
 
 
@@ -12,8 +23,6 @@ padding
 border
 width
 text-align
-
-*/
 
 
 h1{
@@ -72,4 +81,7 @@ ul{
 	font-family:Helvectica, sans-serif;
 	font-style: thin;	
 }
+
+
+*/
 
