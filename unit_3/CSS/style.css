@@ -34,18 +34,19 @@ p {
 */
 
 
-<style>
+
 @import url('http://fonts.googleapis.com/css?family=Unna');
 @import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
-</style>
 
 
-h1{
+
+
+#slogan{
 	color: #21436F;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 300;
-	font-size: 36px;
-	text-align: left;
+	font-family: 'Unna', serif;
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
 }
 
 #main-CTA{
@@ -56,12 +57,12 @@ h1{
 	text-shadow: .5px 3px 4px #242424;
 }
 
-#slogan{
+h1{
 	color: #21436F;
-	font-family: 'Unna', serif;
-	font-size: 24px;
-	text-align: center;
-	font-style: italic;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	text-align: left;
 }
 
 h2{
