@@ -23,56 +23,79 @@ p {
 	background-image: url(../images/lauren-kay-632247-unsplash.jpg);
 }
 }
-
+<style>
+@import url('http://fonts.googleapis.com/css?family=Unna');
+</style>
 
 
 */
 
 
+<style>
+@import url('http://fonts.googleapis.com/css?family=Unna');
+@import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
+</style>
+
 
 h1{
 	color: #767676;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+	font-family: 'Helvetica', sans-serif;
 	font-style: outline;
 	font-size: 54px;
 	text-align: center;
 }
 
+#main-CTA{
+	color: black;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: .5px 3px 4px #242424;
+}
+
 #slogan{
-	color: #767676;
-	font-family: Georgia, serif;
+	color: #21436F;
+	font-family: 'Unna', serif;
 	font-size: 24px;
 	text-align: center;
 	font-style: italic;
 }
 
 h2{
-	color: #767676;
-	font-family: Helvetica, sans-serif;
-	font-weight: thin;
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
 	font-size: 36px;
 	text-align: left;
 }
 
-.content{
+p{
 	color: #767676;
-	font-family: Georgia, serif;
+	font-family: 'Unna', Georgia, serif;
 	font-size: 18px;
+	line-height: 28px;
 }
 
 h3{
-	color: #767676;
-	font-family: Helvetica, sans-serif;
-	font-weight: thin;
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
 	font-size: 22px;
 	text-align: left;
 }
 
+h4{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
 ul{
 	color: #767676;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 	text-align: center;
     list-style-type: none;	
@@ -80,7 +103,16 @@ ul{
 
 
 .quote{
+	color:red;
+	font-family: 'Unna', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;	
+}
+
+.circle-CTA{
 	color:#21436F;
-	font-family:Helvectica, sans-serif;
-	font-style: thin;	
+	font-family: 'Unna', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-decoration: underline;
 }
