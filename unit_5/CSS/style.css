@@ -30,8 +30,37 @@ p {
 	font-size: 54px;
 	text-align: center;	
 
+	header = #FFED74
+- nav = #E8C66A
+- aside = #FFC675
+- article = #E89C6C
+- footer = #FF957E
+- div / section = #FFE2B8
+
 
 */
+
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px
+}
+nav{
+	background-color: #e8c66a;
+}
+aside{
+	background-color: #ffc675;
+}
+article{
+	background-color: #e89c6c;
+}
+footer{
+	background-color: #ff957e;
+}
+div{
+	background-color: #ffe3b8;
+}
 
 
 <style>
