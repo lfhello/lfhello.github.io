@@ -1,4 +1,214 @@
 
+
+
+
+body{
+	margin: 0 75px;
+}
+
+.top{
+	color:red;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 30px;
+	float: right;
+	display: inline-block;
+}
+.top a{
+	color:inherit;
+}
+
+a#nav-btn1:hover{
+	color: #21436F;
+}
+a#nav-btn2:hover{
+	color: #21436F;
+}
+a#nav-btn3:hover{
+	color: #21436F;
+}
+
+
+a#main-CTA:hover{
+	color: green;
+	text-decoration: overline;
+}
+
+.bottom-nav{
+	color:red;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px;
+	float: right;
+	display: inline-block;
+	margin: 15px;
+}
+
+a#second-CTA{
+	color: #21436F;
+	background-color: 0,0;
+	border: solid thin #21436F;
+	padding: 10px;
+}
+
+a#second-CTA:hover{
+	color: #fff;
+	background-color: #21436F;
+	border: solid thin #21436F;
+	padding: 10px;
+}
+
+
+
+h1{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-size: 42px;
+	text-align: left;
+	font-weight: 400;
+	text-align: center;
+}
+
+#main-CTA{
+	color: black;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#second-CTA{
+	color: black;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#slogan{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#hero_img{
+	width: 580px;
+}
+
+h2{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-weight: 300;
+	font-size: 32px;
+	text-align: left;
+}
+
+p{
+	color: #767676;
+	font-family: 'Lora', Georgia, serif;
+	font-size: 17px;
+	line-height: 28px;
+}
+
+h3{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	text-align: center;
+}
+
+h4{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+ul{
+	color: #767676;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+    list-style-type: none;	
+}
+
+aside{
+	margin-top: 25%;
+}
+
+.columns{
+	float: left;
+}
+
+.quote{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	line-height: 1.5em;	
+	margin: 20px;
+	padding: 5px;
+	width: 200px;
+}
+
+.circle-CTA{
+	background-color: #21436F;
+	color:#fff;
+	text-align: center;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-decoration: none;
+	padding: 20px;
+	margin: 10px;
+	display: block;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+a.circle-CTA:hover:{
+	background-color: red;
+}
+
+#two_column {
+    padding: 20px;
+}
+
+#left {
+    float: left;
+    padding: 20px;
+    width: 60%;
+}
+
+#right {
+	background-color: #ffc675;
+    float: right;
+    padding: 10;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+
 /*
 
 try:;
@@ -37,19 +247,6 @@ p {
 - footer = #FF957E
 - div / section = #FFE2B8
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-
-*/
-
-
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -71,115 +268,6 @@ div{
 	background-color: #ffe3b8;
 }
 
-
-<style>
-@import url('http://fonts.googleapis.com/css?family=Unna');
-@import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
-</style>
-
-
-h1{
-	color: #21436F;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 300;
-	font-size: 36px;
-	text-align: left;
-}
-
-#main-CTA{
-	color: black;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-size: 24px;
-	text-align: center;
-	text-shadow: .5px 3px 4px #242424;
-}
-
-#slogan{
-	color: #21436F;
-	font-family: 'Unna', serif;
-	font-size: 24px;
-	text-align: center;
-	font-style: italic;
-}
-
-h2{
-	color: #21436F;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 300;
-	font-size: 36px;
-	text-align: left;
-}
-
-p{
-	color: #767676;
-	font-family: 'Unna', Georgia, serif;
-	font-size: 18px;
-	line-height: 28px;
-}
-
-h3{
-	color: #21436F;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 300;
-	font-size: 22px;
-	text-align: left;
-}
-
-h4{
-	color: #21436F;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 600;
-	font-size: 22px;
-	text-transform: uppercase;
-}
-
-ul{
-	color: #767676;
-	font-family: 'Work Sans', 'Helvetica', sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	text-align: center;
-    list-style-type: none;	
-}
-
-
-.quote{
-	color:red;
-	font-family: 'Unna', sans-serif;
-	font-size: 1em;
-	line-height: 1.5em;	
-}
-
-.circle-CTA{
-	color:#21436F;
-	font-family: 'Unna', sans-serif;
-	font-size: 1em;
-	line-height: 1.5em;
-	text-decoration: underline;
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    float: left;
-    padding: 20px;
-    width: 60%;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    float: right;
-    padding: 10;
-    width: 30%;
-}
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -190,9 +278,7 @@ ul{
 }
 
 
-
-
-
+*/
 
 
 
