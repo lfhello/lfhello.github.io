@@ -1,40 +1,26 @@
-
-
-
-
+@import url('http://fonts.googleapis.com/css?family=Lora');
+@import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
-	margin: 0 75px;
+	color: #767676;
+	font-family: 'Lora', Georgia, serif;
+	font-size: 17px;
+	line-height: 28px;
 }
 
 /* top navigation */
 
 .top{
-	color:red;
-	font-family: 'Lora', serif;
-	font-size: 30px;
-	text-decoration: none;
-	padding: 30px;
 	float: right;
-	display: inline-block;
 }
 .top a{
-	color:inherit;
-	font-family: 'Lora', serif;
+	color: red;
 	font-size: 30px;
 	text-decoration: none;
 	padding: 30px;
-	float: right;
 	display: inline-block;
 }
-}
-
-a#nav-btn1:hover{
-	color: #21436F;
-}
-a#nav-btn2:hover{
-	color: #21436F;
-}
-a#nav-btn3:hover{
+.top a:hover{
 	color: #21436F;
 }
 
@@ -53,9 +39,9 @@ a#nav-btn3:hover{
 
 #right {
 	background-color: #ffc675;
-    float: right;
-    padding: 10;
-    width: 30%;
+	float: right;
+	padding: 1em;
+	width: 30%;
 }
 a#main-CTA:hover{
 	color: green;
@@ -80,16 +66,15 @@ a#main-CTA:hover{
 
 a#second-CTA{
 	color: #21436F;
-	background-color: 0,0;
+	background-color: #fff;
 	border: solid thin #21436F;
 	padding: 10px;
+	display: inline-block;
 }
 
 a#second-CTA:hover{
 	color: #fff;
 	background-color: #21436F;
-	border: solid thin #21436F;
-	padding: 10px;
 }
 
 
@@ -107,7 +92,7 @@ a#second-CTA:hover{
 }
 
 #aside_img{
-	width: 300px;
+	width: 100%;
 }
 
 
@@ -133,25 +118,22 @@ ul{
 aside{
 	margin-top: 25%;
 }
-
-.columns{
-	float: left;
+.columns {
 }
+/*.tertiary .columns{
+	background:	#21436F;
+	width: 24vw;
+	height: 24vw;
+	border-radius:50%;
+	position: relative;
+} */
 
 .circle-CTA{
-	background-color: #21436F;
 	color:#fff;
-	text-align: center;
+	background:#21436F;
 	font-family: 'Work Sans', 'Helvetica', sans-serif;
 	font-size: 1em;
-	line-height: 1.5em;
 	text-decoration: none;
-	padding: 20px;
-	margin: 10px;
-	display: block;
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
 }
 
 a.circle-CTA:hover:{
@@ -232,13 +214,6 @@ h4{
 	font-size: 22px;
 	text-transform: uppercase;
 	clear: both;
-}
-
-p{
-	color: #767676;
-	font-family: 'Lora', Georgia, serif;
-	font-size: 17px;
-	line-height: 28px;
 }
 
 
