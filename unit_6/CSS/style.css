@@ -1,6 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lora');
 @import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body{
 	color: #767676;
 	font-family: 'Lora', Georgia, serif;
@@ -38,7 +39,7 @@ body{
 }
 
 #right {
-	background-color: #ffc675;
+	background-color: #d6d6d6;
 	float: right;
 	padding: 1em;
 	width: 30%;
@@ -115,29 +116,39 @@ ul{
 /* circles + quote */
 
 
-aside{
-	margin-top: 25%;
-}
 .columns {
-}
+	width: 24%;
+	padding: 10px;
+}*/
 /*.tertiary .columns{
 	background:	#21436F;
 	width: 24vw;
 	height: 24vw;
 	border-radius:50%;
 	position: relative;
-} */
+}*/
 
 .circle-CTA{
-	color:#fff;
-	background:#21436F;
+	color:#21436F;
 	font-family: 'Work Sans', 'Helvetica', sans-serif;
 	font-size: 1em;
 	text-decoration: none;
 }
 
-a.circle-CTA:hover:{
-	background-color: red;
+
+.columns-btn{
+	color: #21436F;
+	background: #d6d6d6;
+	padding: 25px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 50%;
+	float: left;
+}
+
+a.columns-btn:hover{
+	color: #21436F;
+	text-decoration: overline;
 }
 
 .quote{
@@ -153,12 +164,6 @@ a.circle-CTA:hover:{
 
 
 /* instagram V */
-
-.column{
-	float: left;
-	width: 25%;
-	padding: 5px;
-}
 
 .row::after{
 	content: " ";
