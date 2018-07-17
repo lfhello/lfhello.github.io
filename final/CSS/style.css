@@ -1,0 +1,352 @@
+@import url('http://fonts.googleapis.com/css?family=Lora');
+@import url('http://fonts.googleapis.com/css?family=Work+Sans:300');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	color: #767676;
+	font-family: 'Lora', Georgia, serif;
+	font-size: 17px;
+	line-height: 28px;
+	padding: 20px;
+}
+
+/* top navigation */
+
+.top{
+	float: right;
+}
+.top a{
+	color: red;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 30px;
+	display: inline-block;
+}
+.top a:hover{
+	color: #21436F;
+}
+
+
+/* feature area- hero + aside */
+
+#two_column {
+    padding: 20px;
+}
+
+#left {
+    float: left;
+    padding: 1em;
+    width: 70%;
+}
+
+#right {
+	background-color: #fff;
+	border: solid medium #21436F;
+	float: right;
+	padding: 1.5em;
+	width: 30%;
+	margin: 5em 0 1em 0;
+}
+
+.content {
+	width: 60%;
+}
+
+
+
+#slogan{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+a#main-CTA{
+	color: black;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+	margin: 2em 0;
+}
+
+a#main-CTA:hover{
+	color: green;
+	text-decoration: overline;
+}
+
+a#second-CTA{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	background-color: #fff;
+	border: solid thin #21436F;
+	padding: 10px;
+	display: inline-block;
+	font-size: 1em;
+	margin: 1em 0;
+	text-decoration: none;
+}
+
+a#second-CTA:hover{
+	color: #fff;
+	background-color: #21436F;
+}
+
+
+#hero_img{
+	width: 100%;
+}
+
+#aside_img{
+	width: 100%;
+}
+
+
+
+/* middle piece- list */
+
+
+ul{
+	color: #767676;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+    list-style-type: none;	
+}
+
+
+
+/* circles + quote */
+
+
+.columns {
+	width: 24%;
+	padding: 10px;
+}*/
+/*.tertiary .columns{
+	background:	#21436F;
+	width: 24vw;
+	height: 24vw;
+	border-radius:50%;
+	position: relative;
+}*/
+
+.circle-CTA{
+	color:#21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	margin: auto;
+	display: inline-block;
+}
+
+
+.columns-btn{
+	color: #21436F;
+	background: #d6d6d6;
+	padding: 1em;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 50%;
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+a.columns-btn:hover{
+	color: #fff;
+	text-decoration: overline;
+	background: #21436F;
+}
+
+.quote{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	line-height: 1.5em;	
+	margin: 1em;
+	padding: .25em;
+	width: 200px;
+	display: inline-block;
+}
+
+.tertiary{
+ 	width: 70%;
+ 	margin: auto;
+}
+
+
+
+/* instagram V */
+
+.row::after{
+	content: " ";
+	clear: both;
+	display: table;
+}
+
+/* bottom nav- footer */
+
+.bottom-nav{
+	color:red;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px;
+	float: right;
+	display: inline-block;
+	margin: 15px;
+}
+
+/* type stack */
+
+h1{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	line-height: 1em;
+	text-align: left;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2{
+	color: #21436F;
+	font-family: 'Lora', serif;
+	font-weight: 300;
+	font-size: 1.75em;
+	line-height: 1em;
+	text-align: left;
+}
+
+
+h3{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h4{
+	color: #21436F;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 600;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	clear: both;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+.top {
+		display: block;
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+		#left{
+		float: none;
+		width: 100%;
+		margin: 5em 0 1em 0;
+	}
+
+	#right{
+		float: none;
+		width: 100%;
+	}
+	.content {
+	width: 100%;
+}
+
+}
+
+/*
+
+try:;
+margin
+padding
+border
+width
+text-align
+
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+
+    body{
+	background-image: url(../images/lauren-kay-632247-unsplash.jpg);
+}
+}
+	color: #767676;
+	font-family: 'Work Sans', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-style: outline;
+	font-size: 54px;
+	text-align: center;	
+
+	header = #FFED74
+- nav = #E8C66A
+- aside = #FFC675
+- article = #E89C6C
+- footer = #FF957E
+- div / section = #FFE2B8
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px
+}
+nav{
+	background-color: #e8c66a;
+}
+aside{
+	background-color: #ffc675;
+}
+article{
+	background-color: #e89c6c;
+}
+footer{
+	background-color: #ff957e;
+}
+div{
+	background-color: #ffe3b8;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+*/
+
+
+
+
